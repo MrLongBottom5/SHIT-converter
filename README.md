@@ -171,46 +171,6 @@ Then provide a filename and the text you want to encode.
 
 ---
 
-## 🧠 How SHIT Works
-
-Every `.shit` file begins with:
-
-```text
-SHIT1
-```
-
-This acts as the file signature and version.
-
-Normal characters are encoded using:
-
-```text
-encoded = (character << 7) + 1
-```
-
-During decoding, the process is reversed:
-
-```text
-character = (encoded - 1) >> 7
-```
-
-Special commands use reserved values:
-
-```text
-0x80 → newline
-0x81 → italic ON
-0x82 → italic OFF
-0x83 → bold ON
-0x84 → bold OFF
-```
-
-Every normal character currently takes **4 bytes**, because SHIT stores the encoded value as a `u32`.
-
-This is why SHIT is wonderfully inefficient.
-
-### Why?
-
-Because I can. 💀
-
 ---
 
 ## 📊 SHIT vs TXT
