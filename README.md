@@ -171,8 +171,6 @@ Then provide a filename and the text you want to encode.
 
 ---
 
----
-
 ## 📊 SHIT vs TXT
 
 | Format  |                   Size |
@@ -193,20 +191,6 @@ Your SSD has been warned.
 
 ---
 
-## 🗺️ Future Ideas
-
-Possible future features:
-
-* [ ] Multi-line input in `n` mode
-* [ ] Better error handling
-* [ ] More formatting commands
-* [ ] Underline support
-* [ ] Colors
-* [ ] SHIT2 👀
-* [ ] Better storage efficiency
-* [ ] Maybe, someday, make SHIT less shit
-
----
 
 ## ⚠️ Disclaimer
 
