@@ -8,7 +8,7 @@ No, it is not efficient.
 
 In fact, it's approximately **380% more bloated than a normal `.txt` file**.
 
-That's a feature. 💀
+That's a feature. 
 
 ---
 
